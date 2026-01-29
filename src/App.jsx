@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
+import Navbar from './Component/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>This is my own Filpcart (Nobicart)</h1>
+    <div>
+    <Navbar/>
+    </div>
     </>
   )
 }
